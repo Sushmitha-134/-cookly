@@ -1,11 +1,14 @@
-.app-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+/* App specific styles */
+.animate-fade {
+    animation: fadeIn 0.5s ease;
 }
 
-.content {
-    flex: 1;
-    padding-top: 80px;
-    /* Space for fixed navbar */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
